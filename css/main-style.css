@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+
+/*Configurações da Página*/
+
+* {
+    font-family: "Quicksand", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Alinha itens nos extremos */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 15px;
+    background-color: black; /* Fundo escuro */
+    color: white; /* Texto branco */
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/*Cabeçalho da Página*/
+
+.title {
+    font-size: 24px;
+}
+
+.options ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens em linha */
+    gap: 20px; /* Espaço entre os links */
+}
+
+.options a {
+    color: white; /* Cor branca nos links */
+    font-size: 18px;
+    transition: color 0.5s ease; /* Efeito de transição */
+}
+
+.options a:hover {
+    color: yellow; /* Cor laranja ao passar o mouse */
+    text-shadow: 5px white;
+}
+
+/*Rodapé do Site*/
+
+footer .terms {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+}
+
+footer .terms:hover {
+    text-decoration: underline;
+}
+
+footer .social {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+footer .social-media a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+footer .social-media a:hover {
+    color: yellow;
+}
+
+footer .social-media img {
+    width: 25px;
+    height: 25px;
+}

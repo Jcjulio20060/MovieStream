@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FilmesBR</title>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/main-style.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     </head>
     <body>
         <!--Cabeçalho-->
@@ -32,52 +34,127 @@
         <hr>
         <!--Corpo do Site-->
         <main>
-            <h2><img src="img/popcorn_cinema_icon_190843.png" alt="">Filmes Favoritos</h2>
             <!--Filmes Favoritos-->
+            <div class="text-label">
+                <img src="img/popcorn_cinema_icon_190843.png" alt="">
+                <h2>Filmes Favoritos</h2>
+            </div>
             <section class="favorite">
-                <hr>
-                <!--Cards-->
-                <div class="card">
-                    <a href="#">
-                        <img src="img/0.jpeg" alt="" srcset="">
-                        <div class="info">
-                            <p>Valor: R$ 10.00</p>
-                            <button type="submit">Comprar</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="#">
-                        <img src="img/1.jpg" alt="" srcset="">
-                        <div class="info">
-                            <p>Valor: R$ 10.00</p>
-                            <button type="submit">Comprar</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="#">
-                        <img src="img/2.jpg" alt="" srcset="">
-                        <div class="info">
-                            <p>Valor: R$ 10.00</p>
-                            <button type="submit">Comprar</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="#">
-                        <img src="img/3.jpg" alt="" srcset="">
-                        <div class="info">
-                            <p>Valor: R$ 10.00</p>
-                            <button type="submit">Comprar</button>
-                        </div>
-                    </a>
+                <div class="slider-container" id="slider-container">
+                    <!--Cards-->
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/0.jpeg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/1.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/2.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/3.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/4.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/5.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/6.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/7.jpeg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div><div class="card">
+                        <a href="#">
+                            <img src="img/0.jpeg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/1.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/2.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <img src="img/3.jpg" alt="" srcset="">
+                            <div class="info">
+                                <p>Valor: R$ 10.00</p>
+                                <button type="submit">Comprar</button>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <button class="prev-btn">❮</button>
                 <button class="next-btn">❯</button>
             </section>
             <hr>
-            <h2>Mais Filmes</h2>
+            <h2 class="text-label">Mais Filmes</h2>
             <!--Mais filmes-->
             <section class="more-movies">
                 <!--Cards-->
@@ -159,24 +236,26 @@
         <!--Rodapé do Site-->
         <footer>
             <p>&copy; FilmesBR. Todos os direitas reservados.</p>
-            <p>Potílita de Privacidade</p>
-            <p>Termos de Uso</p>
+            <a href="#" class="terms">Potílita de Privacidade</a>
+            <a href="#" class="terms">Termos de Uso</a>
+            <p class="social">Redes Sociais</p>
             <div class="social-media">
-                <p>Redes Sociais</p>
                 <a href="">
-                    <img src="" alt="">
+                    <img src="img/youtube-icon.png" alt="">
                     <p>Youtube</p>
                 </a>
                 <a href="">
-                    <img src="" alt="">
-                    <p>Instagram</p>
+                    <img src="img/facebook-icon.png" alt="">
+                    <p>facebook</p>
                 </a>
                 <a href="">
-                    <img src="" alt="">
+                    <img src="img/telegram-icon.png" alt="">
                     <p>Telegram</p>
                 </a>
             </div>
         </footer>
     </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
 </html>
