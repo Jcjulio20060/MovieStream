@@ -92,25 +92,19 @@ main {
 /*Carrossel de Filmes*/
 
 .favorite {
+    overflow: hidden;
     margin: 1rem 0;
+    position: relative;
 }
 
 .favorite .card {
-    display: inline-block;
-    width: 200px;
     margin: 10px;
-    opacity: 1; /* Deixando os cards visíveis */
-    transform: scale(1); /* Tamanho original */
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-.slider-container {
-    width: fit-content; /* Ajuste a largura do slider */
+    z-index: 0;
 }
 
 /*Botões do Carrossel*/
 .prev-btn, .next-btn {
-    display: none;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
