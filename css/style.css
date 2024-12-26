@@ -147,3 +147,9 @@ button.prev-btn:hover, button.next-btn:hover {
 .card .info button:hover {
     background-color: #015fc4; /* Cor azul mais escura */
 }
+
+iframe {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
