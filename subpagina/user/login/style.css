@@ -1,0 +1,81 @@
+/* Reajuste das partes */
+header {
+    position: static;
+}
+
+/* Centralização da área de login */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 703px;
+    margin: 0;
+    background-color: #f4f4f4; /* Fundo leve para contraste */
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Área de login */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px; /* Adicionado padding para espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+
+/* Informação dentro da área de login */
+.info {
+    width: 100%;
+    margin: 0 30px; /* Margens laterais uniformes */
+}
+
+/* Estilos dos inputs das caixas de textos */
+.text {
+    border: 1px solid #ccc; /* Adicionado borda inicial */
+    padding: 10px; /* Espaçamento interno para maior conforto */
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Inclui borda no tamanho total */
+    transition: border-color 0.3s ease; /* Transição suave */
+}
+
+.text:hover,
+.text:focus {
+    border-color: black; /* Altera apenas a cor da borda */
+    outline: none; /* Remove contorno padrão */
+}
+
+/* Estilos das formas de contas */
+.contas {
+    display: grid;
+    gap: 5px; /* Espaçamento entre elementos */
+    text-align: center;
+    font-size: 14px;
+}
+
+.contas:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do botão */
+.button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.7); /* Correção de RGBA */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blue;
+    transform: scale(1.05); /* Leve aumento para feedback visual */
+}

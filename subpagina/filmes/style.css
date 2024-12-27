@@ -1,0 +1,49 @@
+.movie-container {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(0, 0, 0, 0.05);
+    height: 653px;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.movie-container img {
+    border-radius: 15px;
+    height: 300px;
+}
+
+.info {
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    height: 300px;
+}
+
+.compra {
+    position: absolute;
+    width: 95%;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.value {
+    padding-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 255, 0.7);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: blue;
+}

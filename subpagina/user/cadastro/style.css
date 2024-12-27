@@ -1,0 +1,95 @@
+/* Reajuste das partes */
+header {
+    position: static;
+}
+
+/* Centralização da área de login */
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 703px;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Fundo leve para contraste */
+}
+
+footer {
+    margin-top: 0;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Área de login */
+.login {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos verticalmente */
+    align-items: center;    /* Centraliza horizontalmente */
+    background-color: rgb(0, 0, 0, 0.05);
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto; /* Centraliza a div na página */
+}
+
+.login img {
+    max-width: 100px; /* Tamanho da imagem ajustável */
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Informação dentro da área de login */
+.info {
+    margin: 0 30px; /* Margens laterais uniformes */
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+/* Estilos dos inputs das caixas de textos */
+.text {
+    border: 1px solid #ccc; /* Adicionado borda inicial */
+    padding: 10px; /* Espaçamento interno para maior conforto */
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Inclui borda no tamanho total */
+    transition: border-color 0.3s ease; /* Transição suave */
+}
+
+.text:hover,
+.text:focus {
+    border-color: black; /* Altera apenas a cor da borda */
+    outline: none; /* Remove contorno padrão */
+}
+
+/* Estilos das formas de contas */
+.contas {
+    display: grid;
+    gap: 5px; /* Espaçamento entre elementos */
+    text-align: center;
+    font-size: 14px;
+}
+
+.contas:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do botão */
+.button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.7); /* Correção de RGBA */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blue;
+    transform: scale(1.05); /* Leve aumento para feedback visual */
+}
+
+.button:disabled{
+    background-color: #ccc;
+}

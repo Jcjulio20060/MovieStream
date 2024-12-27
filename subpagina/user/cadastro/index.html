@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FilmesBR</title>
         <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="../../css/main-style.css">
+        <link rel="stylesheet" href="../../../css/main-style.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -16,16 +16,17 @@
             <nav class="options" id="menu">
                 <ul>
                     <li>
-                        <a href="#">Início</a>
+                        <a href="../../../index.html
+                        ">Início</a>
                     </li>
                     <li>
                         <a href="#">Filmes</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="../../contact/index.html">Contato</a>
                     </li>
                     <li>
-                        <a href="#">Sobre Nós</a>
+                        <a href="../../about-us/index.html">Sobre Nós</a>
                     </li>
                 </ul>
             </nav>
@@ -33,25 +34,67 @@
         <hr>
         <!--Corpo do Site-->
         <main>
-            <h2>Olá!</h2>
+            <div class="login">
+                <img src="../../../img/account.png" alt="">
+                <div class="info">
+                    <form>
+                        <label for="full-name">Nome completo</label>
+                        <input type="text" class="text" id="full-name" name="full-name" placeholder="Digite seu nome completo" required>
+
+                        <label for="birth-date">Data de nascimento</label>
+                        <input type="date" class="text" id="birth-date" name="birth-date" required>
+
+                        <label for="gender">Gênero</label>
+                        <select id="gender" class="text" name="gender" required>
+                            <option value="">Selecione</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Outro</option>
+                            <option value="prefiro-nao-dizer">Prefiro não dizer</option>
+                        </select>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" class="text" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                        <label for="phone">Telefone</label>
+                        <input type="tel" class="text" id="phone" name="phone" placeholder="Digite seu telefone" required>
+
+                        <label for="username">Nome de usuário</label>
+                        <input type="text" class="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
+
+                        <label for="password">Senha</label>
+                        <input type="password" class="text" id="password" name="password" placeholder="Digite sua senha" required>
+
+                        <label for="confirm-password">Confirme sua senha</label>
+                        <input type="password" class="text" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">Aceito os termos de serviço</label>
+                        </div>
+
+                        <button class="button" type="submit" disabled>Cadastrar</button>
+                    </form>
+                </div>
+            </div>
         </main>
         <!--Rodapé do Site-->
         <footer>
             <p>&copy; FilmesBR. Todos os direitas reservados.</p>
-            <a href="#" class="terms">Potílita de Privacidade</a>
-            <a href="#" class="terms">Termos de Uso</a>
+            <a href="../../policy-privacy/index.html" class="terms">Potílita de Privacidade</a>
+            <a href="../../terms-of-use/index.html" class="terms">Termos de Uso</a>
             <p class="social">Redes Sociais</p>
             <div class="social-media">
                 <a href="">
-                    <img src="../../img/youtube-icon.png" alt="">
+                    <img src="../../../img/youtube-icon.png" alt="">
                     <p>Youtube</p>
                 </a>
                 <a href="">
-                    <img src="../../img/facebook-icon.png" alt="">
+                    <img src="../../../img/facebook-icon.png" alt="">
                     <p>facebook</p>
                 </a>
                 <a href="">
-                    <img src="../../img/telegram-icon.png" alt="">
+                    <img src="../../../img/telegram-icon.png" alt="">
                     <p>Telegram</p>
                 </a>
             </div>
