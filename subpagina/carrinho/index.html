@@ -33,22 +33,47 @@
         <hr>
         <!--Corpo do Site-->
         <main>
-            <h2>Carrinho</h2>
-            <div class="carrinho">
-                <div class="card">
-                    <img src="../../img/0.jpeg" alt="">
-                    <div class="info">
-                        <h3 class="title">Bagagem de Risco</h3>
+            <h2>Carrinho de Compras</h2>
+            <div class="cart-container">
+                <div class="cart-item">
+                    <img src="../../img/0.jpeg" alt="Capa do filme" class="cart-image">
+                    <div class="cart-details">
+                        <h3>Bagagem de Risco</h3>
+                        <p>Preço: R$ 10,00</p>
+                        <label for="quantity1">Quantidade:</label>
                         <div class="quantify">
-                            <button class="down">&downarrow;</button>
+                            <button class="down">-</button>
                             <span class="quantity">1</span>
-                            <button class="up">&uparrow;</button>
+                            <button class="more">+</button>
                         </div>
-                        <p class="value">Valor: R$10.00</p>
                     </div>
+                    <button class="remove-item">Remover</button>
+                </div>
+                <div class="cart-item">
+                    <img src="../../img/1.jpg" alt="Capa do filme" class="cart-image">
+                    <div class="cart-details">
+                        <h3>Interestelar</h3>
+                        <p>Preço: R$ 10,00</p>
+                        <label for="quantity1">Quantidade:</label>
+                        <div class="quantify">
+                            <button class="down">-</button>
+                            <span class="quantity">1</span>
+                            <button class="more">+</button>
+                        </div>
+                    </div>
+                    <button class="remove-item">Remover</button>
                 </div>
             </div>
-            <button type="submit" class="finaliza">Finalizar Compra</button>
+            <div class="cart-summary">
+                <div class="methods">
+                    <h3>Selecione uma forma de pagamento</h3>
+                    <button>Pix</button>
+                    <button>Crédito</button>
+                    <button>Débido</button>
+                </div>
+                <h3>Total: R$ 20,00</h3>
+                <button class="checkout-button">Finalizar Compra</button>
+            </div>
         </main>
         <!--Rodapé do Site-->
         <footer>

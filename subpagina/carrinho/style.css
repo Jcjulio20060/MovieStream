@@ -1,66 +1,113 @@
+/* Estilo geral */
+
 h2 {
     text-align: center;
+    margin: 20px 0;
 }
 
-img {
-    border-radius: 8px 0 0 8px;
+span {
+    padding: 6px;
 }
 
-.carrinho {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    width: 700px;
-}
-
-.card {
+.cart-container {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
     padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.info {
-    padding-left: 20px;
-    width: 100%;
+.cart-image {
+    max-width: 100px;
+    border-radius: 10px;
 }
 
-.value {
-    text-align: end;
-    align-items: end;
+.cart-details {
+    flex-grow: 1;
+    margin-left: 20px;
 }
 
-.finaliza {
-    text-align: center;
+.cart-details label {
+    display: block;
+    margin-top: 10px;
 }
 
-.quantity {
-    padding: 5px;
-}
-
-.up, .down{
+.remove-item {
+    background: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
     padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.up {
-    border-radius: 0 10px 10px 0;
+.remove-item:hover{
+    background: red;
+}
+
+.cart-summary {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.checkout-button {
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkout-button:hover{
+    background-color: blue;
+}
+
+.down, .more{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
 }
 
 .down {
     border-radius: 10px 0 0 10px;
 }
 
-.up:hover, .down:hover{
-    padding: 5px 10px;
+.more {
+    border-radius: 0 10px 10px 0;
 }
 
-button {
+.down:hover, .more:hover{
+    background-color: blue;
+}
+
+.methods {
+    padding: 10px;
+}
+
+.methods button {
+    padding: 5px 10px;
+    background-color: rgba(0, 190, 63, 0.7);
+    color: white;
     border: none;
     border-radius: 10px;
-    background-color: rgba(0, 0, 255, 0.7);
-    color: white;
-    padding: 10px 20px;
 }
 
-button:hover {
-    background-color: blue;
-    cursor: pointer;
-    padding: 10px 20px;
+.methods button:hover {
+    background-color: green;
+}
+
+.methods button:focus {
+    background-color: green;
 }
